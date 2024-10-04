@@ -1230,7 +1230,7 @@ Cette valeur vous permet de définir un nombre maximum d&apos;utilisateurs autor
     </message>
     <message>
         <source>&lt;b&gt;This shows peak outgoing bandwidth used.&lt;/b&gt;&lt;br /&gt;This shows the peak amount of bandwidth sent out from your machine. Audio bitrate is the maximum bitrate for the audio data alone. Position is the bitrate used for positional information. Overhead is our framing and the IP packet headers (IP and UDP is 75% of this overhead).</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Ceci montre le débit sortant maximal utilisé.&lt;/b&gt;&lt;br /&gt;Ceci montre le débit maximal envoyé depuis votre machine. Le débit audio est le débit maximal pour les données audio seules. La position est le débit utilisé pour les informations de position. Les frais généraux correspondent à notre encadrement et aux en-têtes de paquets IP (IP et UDP représentent 75 % de ces frais généraux).</translation>
     </message>
 </context>
 <context>
@@ -1841,7 +1841,7 @@ Cette valeur vous permet de définir un nombre maximum d&apos;utilisateurs autor
     </message>
     <message>
         <source>This is the audio bitrate of the last compressed frame (20 ms). The peak bitrate can be adjusted in the Settings dialog.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ceci est le débit audio du dernier cadre compressé (20 ms). Le débit maximal peut être ajusté dans la boîte de dialogue Paramètres.</translation>
     </message>
 </context>
 <context>
@@ -2781,10 +2781,6 @@ Are you sure you wish to replace your certificate?
 &lt;p&gt;Notez que ce fichier ne sera pas chiffré et que toute personne qui mettra la main dessus pourra se faire passer pour vous, conservez-le donc précieusement.&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Mumble can use certificates to authenticate with servers. Using certificates avoids passwords, meaning you don&apos;t need to disclose any password to the remote site. It also enables very easy user registration and a client side friends list independent of servers.&lt;/p&gt;&lt;p&gt;While Mumble can work without certificates, the majority of servers will expect you to have one.&lt;/p&gt;&lt;p&gt;Creating a new certificate automatically is sufficient for most use cases. But Mumble also supports certificates representing trust in the users ownership of an email address. These certificates are issued by third parties. For more information see our &lt;a href=&quot;http://mumble.info/certificate.php&quot;&gt;user certificate documentation&lt;/a&gt;. &lt;/p&gt;</source>
-        <translation>&lt;p&gt;Mumble peut utiliser des certificats pour s&apos;authentifier auprès de serveurs. Utiliser des certificats évite l&apos;utilisation de mots de passe, ce que qui signifie que vous n&apos;avez besoin de divulguer aucun mot de passe aux sites distants. Cela permet également un enregistrement très simple de l&apos;utilisateur et une liste d&apos;amis côté client indépendante des serveurs.&lt;/p&gt;&lt;p&gt;Tandis que Mumble peut fonctionner sans certificats, la majorité des serveurs s&apos;attend à en avoir un.&lt;/p&gt;&lt;p&gt;Créer un nouveau certificat automatiquement est suffisant dans la plupart des cas. Mais Mumble prend également en charge les certificats représentant la confiance dans la propriété d&apos;une adresse e-mail de la part de l&apos;utilisateur. Ces certificats sont délivrés par des tiers. Pour plus d&apos;informations, consultez notre &lt;a href=&quot;http://mumble.info/certificate.php&quot;&gt;documentation du certificat d&apos;utilisateur&lt;/a&gt;. &lt;/p&gt;</translation>
-    </message>
-    <message>
         <source>Displays current certificate</source>
         <translation>Affiche le certificat actuel</translation>
     </message>
@@ -2823,6 +2819,10 @@ Are you sure you wish to replace your certificate?
     <message>
         <source>Your email address. For example: johndoe@mumble.info</source>
         <translation>Votre adresse de courriel. Par exemple&#x202f;: johndoe@mumble.info</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;Mumble can use certificates to authenticate with servers. Using certificates avoids passwords, meaning you don&apos;t need to disclose any password to the remote site. It also enables very easy user registration and a client side friends list independent of servers.&lt;/p&gt;&lt;p&gt;While Mumble can work without certificates, the majority of servers will expect you to have one.&lt;/p&gt;&lt;p&gt;Creating a new certificate automatically is sufficient for most use cases. But Mumble also supports certificates representing trust in the users ownership of an email address. These certificates are issued by third parties. For more information see our &lt;a href=&quot;https://www.mumble.info/documentation/user/certificates/&quot;&gt;user certificate documentation&lt;/a&gt;. &lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3242,7 +3242,7 @@ Are you sure you wish to replace your certificate?
     </message>
     <message>
         <source>&lt;p&gt;To measure the latency (ping) of public servers and determine the number of active users, your IP address must be transmitted to each public server.&lt;/p&gt;&lt;p&gt;Do you consent to the transmission of your IP address? If you answer no, the public server list will be deactivated. However, you can reactivate it at any time in the network settings.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Pour mesurer la latence (ping) des serveurs publiques et déterminer le nombre d&apos;utilisateurs actifs, votre adresse IP doit être transmise à chacun.&lt;/p&gt;&lt;p&gt;Voulez-vous consentir à l&apos;envoi de votre adresse IP&#xa0;? Si vous répondez non, la liste de serveurs public sera désactivée. Cependant, vous pourrez la réactivée à tout moment dans les paramètres réseau.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Pour mesurer la latence (ping) des serveurs publics et déterminer le nombre d&apos;utilisateurs actifs, votre adresse IP doit être transmise à chacun.&lt;/p&gt;&lt;p&gt;Voulez-vous consentir à l&apos;envoi de votre adresse IP&#x202f;? Si vous répondez non, la liste de serveurs publics sera désactivée. Cependant, vous pourrez la réactiver à tout moment dans les paramètres réseau.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>C&amp;onnect</source>
@@ -5218,10 +5218,6 @@ Le paramètre ne s&apos;applique qu&apos;aux nouveaux messages, ceux déjà affi
         <translation>&lt;p&gt;%1&lt;/p&gt;&lt;ul&gt;%2&lt;/ul&gt;&lt;p&gt;Les erreurs de ce certificat sont les suivantes : &lt;/p&gt;&lt;ol&gt;%3&lt;/ol&gt;&lt;p&gt;Voulez-vous quand même accepter ce certificat ?&lt;br /&gt;(Il sera également stocké et la question ne vous sera pas posée à nouveau.)&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>SSL Version mismatch</source>
-        <translation>Incompatibilité de version SSL</translation>
-    </message>
-    <message>
         <source>Server connection failed.</source>
         <translation>Échec de la connexion au serveur.</translation>
     </message>
@@ -5441,10 +5437,6 @@ Le paramètre ne s&apos;applique qu&apos;aux nouveaux messages, ceux déjà affi
     <message>
         <source>&lt;b&gt;WARNING:&lt;/b&gt; The server presented a certificate that was different from the stored one.</source>
         <translation>&lt;b&gt;ATTENTION :&lt;/b&gt;Le serveur présente un certificat différent de celui mémorisé.</translation>
-    </message>
-    <message>
-        <source>This server is using an older encryption standard, and is no longer supported by modern versions of Mumble.</source>
-        <translation>Ce serveur utilise un standard ancien du cryptage et n&apos;est plus supporté par les versions modernes de Mumble.</translation>
     </message>
     <message>
         <source>Server connection failed: %1.</source>
@@ -7159,6 +7151,27 @@ Les options valides sont :
         <source>Filtered channels and users</source>
         <translation>Salons et utilisateurs filtrés</translation>
     </message>
+    <message>
+        <source>Toggle positional audio</source>
+        <comment>Global Shortcut</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This will toggle positional audio on/off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SSL error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mumble is unable to establish a secure connection to the server. (&quot;%1&quot;)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This could be caused by one of the following scenarios:&lt;ul&gt;&lt;li&gt;Your client and the server use different encryption standards. This could be because you are using a very old client or the server you are connecting to is very old. In the first case, you should update your client and in the second case you should contact the server administrator so that they can update their server.&lt;/li&gt;&lt;li&gt;Either your client or the server is using an old operating system that doesn&apos;t provide up-to-date encryption methods. In this case you should consider updating your OS or contacting the server admin so that they can update theirs.&lt;/li&gt;&lt;li&gt;The server you are connecting to isn&apos;t actually a Mumble server. Please ensure that the used server address really belongs to a Mumble server and not e.g. to a game server.&lt;/li&gt;&lt;li&gt;The port you are connecting to does not belong to a Mumble server but instead is bound to a completely unrelated process on the server-side. Please double-check you have used the correct port.&lt;/li&gt;&lt;/ul&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Manual</name>
@@ -8426,12 +8439,6 @@ Pour mettre à jour l&apos;overlay, cliquez sur le bouton ci-dessous.</translati
         <translation>L&apos;annulation d&apos;écho n&apos;est pas supportée par la combinaison d&apos;interfaces &quot;%1&quot; (entrée) et &quot;%2&quot; (sortie).</translation>
     </message>
     <message>
-        <source>&lt;p&gt;If you&apos;re using Linux this is most likely because you are using a version from your distribution&apos;s package repository that have their own update cycles.&lt;/p&gt;&lt;p&gt;If you want to always have the most recent Mumble version, you should consider using a different method of installation.
-See &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;the Mumble wiki&lt;/a&gt; for what alternatives there are.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Si vous utilisez Linux, la raison probable est qu&apos;il y a un délai entre la sortie d&apos;une mise à jour et sa disponibilité dans les dépôts de votre distribution.&lt;/p&gt;&lt;p&gt;Si vous voulez profitez instantanément des nouvelles versions de Mumble, vous devriez considérer une méthode d&apos;installation différente. 
-Voyez &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;le wiki&lt;/a&gt; (anglais) pour une liste des alternatives disponibles.&lt;/p&gt;</translation>
-    </message>
-    <message>
         <source>Local Mute</source>
         <translation>Muet (local)</translation>
     </message>
@@ -8702,6 +8709,11 @@ Vous pouvez les enregistrer à nouveau.</translation>
     <message>
         <source>Add</source>
         <translation>Ajouter</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;If you&apos;re using Linux this is most likely because you are using a version from your distribution&apos;s package repository that have their own update cycles.&lt;/p&gt;&lt;p&gt;If you want to always have the most recent Mumble version, you should consider using a different method of installation.
+See &lt;a href=&quot;https://github.com/mumble-voip/mumble&quot;&gt;the project repository&lt;/a&gt; for what alternatives there are.&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

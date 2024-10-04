@@ -2780,10 +2780,6 @@ Are you sure you wish to replace your certificate?
 &lt;p&gt;이 파일은 암호화되지 않으며 누군가 접근하여 얻을 수 있으면 가장할 수 있으므로 주의하여 보관하세요.&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Mumble can use certificates to authenticate with servers. Using certificates avoids passwords, meaning you don&apos;t need to disclose any password to the remote site. It also enables very easy user registration and a client side friends list independent of servers.&lt;/p&gt;&lt;p&gt;While Mumble can work without certificates, the majority of servers will expect you to have one.&lt;/p&gt;&lt;p&gt;Creating a new certificate automatically is sufficient for most use cases. But Mumble also supports certificates representing trust in the users ownership of an email address. These certificates are issued by third parties. For more information see our &lt;a href=&quot;http://mumble.info/certificate.php&quot;&gt;user certificate documentation&lt;/a&gt;. &lt;/p&gt;</source>
-        <translation>&lt;p&gt;Mumble은 인증서를 사용하여 서버를 인증할 수 있습니다. 인증서를 사용하면 비밀번호가 사용되지 않음으로 원격 사이트에 비밀번호를 노출할 필요가 없습니다. 또한, 서버와 관계없이 매우 쉬운 유저 등록과 클라이언트 측 친구 목록을 사용할 수 있습니다.&lt;/p&gt;&lt;p&gt;Mumble은 인증서 없이 작동할 수 있지만, 대부분의 서버는 유저가 인증서를 가질 것으로 예상합니다.&lt;/p&gt;&lt;p&gt;새 인증서를 자동으로 만드는 것은 대부분의 사용 사례에 충분합니다. 그러나 Mumble은 이메일 주소의 유저 소유권에 신뢰를 나타내는 인증서도 지원합니다. 이러한 인증서는 제삼자가 발급합니다. 자세한 내용은 &lt;a href=&quot;http://mumble.info/certificate.php&quot;&gt;유저 인증서 문서&lt;/a&gt;를 참조하세요.&lt;/p&gt;</translation>
-    </message>
-    <message>
         <source>Displays current certificate</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2821,6 +2817,10 @@ Are you sure you wish to replace your certificate?
     </message>
     <message>
         <source>Your email address. For example: johndoe@mumble.info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;Mumble can use certificates to authenticate with servers. Using certificates avoids passwords, meaning you don&apos;t need to disclose any password to the remote site. It also enables very easy user registration and a client side friends list independent of servers.&lt;/p&gt;&lt;p&gt;While Mumble can work without certificates, the majority of servers will expect you to have one.&lt;/p&gt;&lt;p&gt;Creating a new certificate automatically is sufficient for most use cases. But Mumble also supports certificates representing trust in the users ownership of an email address. These certificates are issued by third parties. For more information see our &lt;a href=&quot;https://www.mumble.info/documentation/user/certificates/&quot;&gt;user certificate documentation&lt;/a&gt;. &lt;/p&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5217,10 +5217,6 @@ The setting only applies for new messages, the already shown ones will retain th
         <translation>&lt;p&gt;%1&lt;/p&gt;&lt;ul&gt;%2&lt;/ul&gt;&lt;p&gt;이 인증서의 특정 오류:&lt;/p&gt;&lt;ol&gt;%3&lt;/ol&gt;&lt;p&gt;이 인증서를 수락하시겠습니까?&lt;br /&gt;(저장되므로 다시 묻지 않습니다.)&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>SSL Version mismatch</source>
-        <translation>SSL 버전 불일치</translation>
-    </message>
-    <message>
         <source>Server connection failed.</source>
         <translation>서버 연결에 실패했습니다.</translation>
     </message>
@@ -5440,10 +5436,6 @@ The setting only applies for new messages, the already shown ones will retain th
     <message>
         <source>&lt;b&gt;WARNING:&lt;/b&gt; The server presented a certificate that was different from the stored one.</source>
         <translation>&lt;b&gt;경고:&lt;/b&gt; 서버가 저장된 인증서와 다른 인증서를 제공했습니다.</translation>
-    </message>
-    <message>
-        <source>This server is using an older encryption standard, and is no longer supported by modern versions of Mumble.</source>
-        <translation>이 서버는 이전 암호화 표준을 사용하고 있으며 최신 버전의 Mumble에서는 더 이상 지원되지 않습니다.</translation>
     </message>
     <message>
         <source>Server connection failed: %1.</source>
@@ -7091,6 +7083,27 @@ Valid options are:
         <source>Filtered channels and users</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Toggle positional audio</source>
+        <comment>Global Shortcut</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This will toggle positional audio on/off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SSL error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mumble is unable to establish a secure connection to the server. (&quot;%1&quot;)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This could be caused by one of the following scenarios:&lt;ul&gt;&lt;li&gt;Your client and the server use different encryption standards. This could be because you are using a very old client or the server you are connecting to is very old. In the first case, you should update your client and in the second case you should contact the server administrator so that they can update their server.&lt;/li&gt;&lt;li&gt;Either your client or the server is using an old operating system that doesn&apos;t provide up-to-date encryption methods. In this case you should consider updating your OS or contacting the server admin so that they can update theirs.&lt;/li&gt;&lt;li&gt;The server you are connecting to isn&apos;t actually a Mumble server. Please ensure that the used server address really belongs to a Mumble server and not e.g. to a game server.&lt;/li&gt;&lt;li&gt;The port you are connecting to does not belong to a Mumble server but instead is bound to a completely unrelated process on the server-side. Please double-check you have used the correct port.&lt;/li&gt;&lt;/ul&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Manual</name>
@@ -8358,12 +8371,6 @@ To upgrade these files to their latest versions, click the button below.</source
         <translation>&quot;%1&quot; (입력) 및 &quot;%2&quot; (출력) 인터페이스 조합에는 에코 제거가 지원되지 않습니다.</translation>
     </message>
     <message>
-        <source>&lt;p&gt;If you&apos;re using Linux this is most likely because you are using a version from your distribution&apos;s package repository that have their own update cycles.&lt;/p&gt;&lt;p&gt;If you want to always have the most recent Mumble version, you should consider using a different method of installation.
-See &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;the Mumble wiki&lt;/a&gt; for what alternatives there are.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Linux를 사용하는 경우 자체 업데이트 주기가 있는 배포 패키지 저장소의 버전을 사용하고 있기 때문일 수 있습니다.&lt;/p&gt;&lt;p&gt;항상 최신 Mumble 버전을 사용하려면 다른 설치 방법을 사용해야 합니다.
-다른 방법은 &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;Mumble 위키&lt;/a&gt;를 참고하세요.&lt;/p&gt;</translation>
-    </message>
-    <message>
         <source>Local Mute</source>
         <translation>로컬 마이크 음소거</translation>
     </message>
@@ -8634,6 +8641,11 @@ You can register them again.</source>
     <message>
         <source>Add</source>
         <translation type="unfinished">추가</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;If you&apos;re using Linux this is most likely because you are using a version from your distribution&apos;s package repository that have their own update cycles.&lt;/p&gt;&lt;p&gt;If you want to always have the most recent Mumble version, you should consider using a different method of installation.
+See &lt;a href=&quot;https://github.com/mumble-voip/mumble&quot;&gt;the project repository&lt;/a&gt; for what alternatives there are.&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

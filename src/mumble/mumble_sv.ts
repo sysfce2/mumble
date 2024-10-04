@@ -2781,10 +2781,6 @@ Are you sure you wish to replace your certificate?
 &lt;p&gt;Kom ihåg att den här filen inte kommer att krypteras, så om någon får tillgång till den kommer de kunna identifiera dig. Ta därför väl hand om det.&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Mumble can use certificates to authenticate with servers. Using certificates avoids passwords, meaning you don&apos;t need to disclose any password to the remote site. It also enables very easy user registration and a client side friends list independent of servers.&lt;/p&gt;&lt;p&gt;While Mumble can work without certificates, the majority of servers will expect you to have one.&lt;/p&gt;&lt;p&gt;Creating a new certificate automatically is sufficient for most use cases. But Mumble also supports certificates representing trust in the users ownership of an email address. These certificates are issued by third parties. For more information see our &lt;a href=&quot;http://mumble.info/certificate.php&quot;&gt;user certificate documentation&lt;/a&gt;. &lt;/p&gt;</source>
-        <translation>&lt;p&gt;Mumble kan använda certifikat för att autentisera sig med servrar. Genom att använda certifikat undviker du lösenord, vilket innebär att du inte behöver lämna ut något lösenord till fjärrplatsen. Det möjliggör också mycket enkel användarregistrering och en vänlista på klientsidan som är oberoende av servrar.&lt;/p&gt;&lt;p&gt;Även om Mumble kan fungera utan certifikat förväntar sig de flesta servrar att du har ett.&lt;/p&gt;&lt;p&gt;Att skapa ett nytt certifikat automatiskt är tillräckligt för de flesta användningsfall. Men Mumble stöder också certifikat som representerar förtroende för användarens ägande av en e-postadress. Dessa certifikat utfärdas av tredje part. Mer information finns i vår dokumentation om &lt;a href=&quot;http://mumble.info/certificate.php&quot;&gt;användarcertifikat&lt;/a&gt;. &lt;/p&gt;</translation>
-    </message>
-    <message>
         <source>Displays current certificate</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2822,6 +2818,10 @@ Are you sure you wish to replace your certificate?
     </message>
     <message>
         <source>Your email address. For example: johndoe@mumble.info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;Mumble can use certificates to authenticate with servers. Using certificates avoids passwords, meaning you don&apos;t need to disclose any password to the remote site. It also enables very easy user registration and a client side friends list independent of servers.&lt;/p&gt;&lt;p&gt;While Mumble can work without certificates, the majority of servers will expect you to have one.&lt;/p&gt;&lt;p&gt;Creating a new certificate automatically is sufficient for most use cases. But Mumble also supports certificates representing trust in the users ownership of an email address. These certificates are issued by third parties. For more information see our &lt;a href=&quot;https://www.mumble.info/documentation/user/certificates/&quot;&gt;user certificate documentation&lt;/a&gt;. &lt;/p&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5218,10 +5218,6 @@ Inställningen gäller endast för nya meddelanden, de redan visade meddelandena
         <translation>&lt;p&gt;%1&lt;/p&gt;&lt;ul&gt;%2&lt;/ul&gt;&lt;p&gt;De specifika felen med det här certifikatet är:&lt;/p&gt;&lt;ol&gt;%3&lt;/ol&gt;&lt;p&gt;Vill du acceptera det här certifikatet i alla fall?&lt;br /&gt;(Det kommer också att lagras så att du inte får frågan igen)&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>SSL Version mismatch</source>
-        <translation>SSL-version matchar inte</translation>
-    </message>
-    <message>
         <source>Server connection failed.</source>
         <translation>Serveranslutning misslyckades.</translation>
     </message>
@@ -5441,10 +5437,6 @@ Inställningen gäller endast för nya meddelanden, de redan visade meddelandena
     <message>
         <source>&lt;b&gt;WARNING:&lt;/b&gt; The server presented a certificate that was different from the stored one.</source>
         <translation>&lt;b&gt;VARNING:&lt;/b&gt; Servern använder ett certifikat som inte är samma som det lagrade.</translation>
-    </message>
-    <message>
-        <source>This server is using an older encryption standard, and is no longer supported by modern versions of Mumble.</source>
-        <translation>Den här servern använder en äldre krypteringsstandard och stöds ej längre av nyare versioner av Mumble.</translation>
     </message>
     <message>
         <source>Server connection failed: %1.</source>
@@ -7151,6 +7143,27 @@ Giltiga värden för options är:
         <source>Filtered channels and users</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Toggle positional audio</source>
+        <comment>Global Shortcut</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This will toggle positional audio on/off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SSL error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mumble is unable to establish a secure connection to the server. (&quot;%1&quot;)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This could be caused by one of the following scenarios:&lt;ul&gt;&lt;li&gt;Your client and the server use different encryption standards. This could be because you are using a very old client or the server you are connecting to is very old. In the first case, you should update your client and in the second case you should contact the server administrator so that they can update their server.&lt;/li&gt;&lt;li&gt;Either your client or the server is using an old operating system that doesn&apos;t provide up-to-date encryption methods. In this case you should consider updating your OS or contacting the server admin so that they can update theirs.&lt;/li&gt;&lt;li&gt;The server you are connecting to isn&apos;t actually a Mumble server. Please ensure that the used server address really belongs to a Mumble server and not e.g. to a game server.&lt;/li&gt;&lt;li&gt;The port you are connecting to does not belong to a Mumble server but instead is bound to a completely unrelated process on the server-side. Please double-check you have used the correct port.&lt;/li&gt;&lt;/ul&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Manual</name>
@@ -8418,12 +8431,6 @@ Tryck på knappen nedan för att uppgradera dessa filer till de senaste versione
         <translation>Ekoavbrott stöds inte för gränssnittskombinationen &quot;%1&quot; (in) och &quot;%2&quot; (ut).</translation>
     </message>
     <message>
-        <source>&lt;p&gt;If you&apos;re using Linux this is most likely because you are using a version from your distribution&apos;s package repository that have their own update cycles.&lt;/p&gt;&lt;p&gt;If you want to always have the most recent Mumble version, you should consider using a different method of installation.
-See &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;the Mumble wiki&lt;/a&gt; for what alternatives there are.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Om du använder Linux beror det troligen på att du använder en version från din distributions paketförråd som har sina egna uppdateringscykler.&lt;/p&gt;&lt;p&gt;Om du alltid vill ha den senaste Mumble-versionen bör du överväga att använda en annan installationsmetod.
-Se &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;Mumble-wikin&lt;/a&gt; för vilka alternativ som finns.&lt;/p&gt;</translation>
-    </message>
-    <message>
         <source>Local Mute</source>
         <translation>Blockerat lokalt ljud</translation>
     </message>
@@ -8694,6 +8701,11 @@ Du kan registrera dem igen.</translation>
     <message>
         <source>Add</source>
         <translation type="unfinished">Lägg till</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;If you&apos;re using Linux this is most likely because you are using a version from your distribution&apos;s package repository that have their own update cycles.&lt;/p&gt;&lt;p&gt;If you want to always have the most recent Mumble version, you should consider using a different method of installation.
+See &lt;a href=&quot;https://github.com/mumble-voip/mumble&quot;&gt;the project repository&lt;/a&gt; for what alternatives there are.&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

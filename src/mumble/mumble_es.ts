@@ -2781,10 +2781,6 @@ Are you sure you wish to replace your certificate?
 &lt;p&gt;Fíjese en que este archivo no se encriptará, y si alguien consigue acceder a él, podrá hacerse pasar por usted, así que tenga cuidado con él.&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Mumble can use certificates to authenticate with servers. Using certificates avoids passwords, meaning you don&apos;t need to disclose any password to the remote site. It also enables very easy user registration and a client side friends list independent of servers.&lt;/p&gt;&lt;p&gt;While Mumble can work without certificates, the majority of servers will expect you to have one.&lt;/p&gt;&lt;p&gt;Creating a new certificate automatically is sufficient for most use cases. But Mumble also supports certificates representing trust in the users ownership of an email address. These certificates are issued by third parties. For more information see our &lt;a href=&quot;http://mumble.info/certificate.php&quot;&gt;user certificate documentation&lt;/a&gt;. &lt;/p&gt;</source>
-        <translation>&lt;p&gt;Mumble puede usar certificados para autenticarse con los servidores. El uso de certificados evita las contraseñas, lo que significa que no necesita revelar ninguna contraseña al sitio remoto. También permite un registro de usuario muy fácil y una lista de amigos del lado del cliente independiente de los servidores.&lt;/p&gt; &lt;p&gt;Mumble puede funcionar sin certificados, la mayoría de los servidores esperan que tenga uno.&lt;/p&gt; &lt;p&gt;Crear un nuevo certificado automáticamente es suficiente para la mayoría de los casos. Mumble también admite certificados que representan confianza en la propiedad de los usuarios de una dirección de correo electrónico. Estos certificados son emitidos por terceros. Para obtener más información, consulte nuestra &lt;a href=&quot;http://mumble.info/certificate.php&quot;&gt;documentación de certificado de usuario&lt;/a&gt;. &lt;/p&gt;</translation>
-    </message>
-    <message>
         <source>Displays current certificate</source>
         <translation>Muestra el certificado actual</translation>
     </message>
@@ -2823,6 +2819,10 @@ Are you sure you wish to replace your certificate?
     <message>
         <source>Your email address. For example: johndoe@mumble.info</source>
         <translation>Su correo electrónico. Por ejemplo: johndoe@mumble.info</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;Mumble can use certificates to authenticate with servers. Using certificates avoids passwords, meaning you don&apos;t need to disclose any password to the remote site. It also enables very easy user registration and a client side friends list independent of servers.&lt;/p&gt;&lt;p&gt;While Mumble can work without certificates, the majority of servers will expect you to have one.&lt;/p&gt;&lt;p&gt;Creating a new certificate automatically is sufficient for most use cases. But Mumble also supports certificates representing trust in the users ownership of an email address. These certificates are issued by third parties. For more information see our &lt;a href=&quot;https://www.mumble.info/documentation/user/certificates/&quot;&gt;user certificate documentation&lt;/a&gt;. &lt;/p&gt;</source>
+        <translation>&lt;p&gt;Mumble puede usar certificados para autenticarse con servidores. El uso de certificados evita contraseñas, lo que significa que no necesita revelar ninguna contraseña al sitio remoto. También permite un registro de usuario muy fácil y una lista de amigos del lado cliente independiente de los servidores. &lt;/p&gt;&lt;p&gt;Mientras que Mumble puede funcionar sin certificados, la mayoría de los servidores esperan que tengas uno. &lt;/p&gt;&lt;p&gt;Crear un nuevo certificado automáticamente es suficiente para la mayoría de los casos de uso. Pero Mumble también admite certificados que representan la confianza en la propiedad de los usuarios de una dirección de correo electrónico. Estos certificados son emitidos por terceros. Para más información, consulte nuestra &lt;a href=&quot;https://www.mumble.info/documentation/user/certificates/&quot;&gt;documentación de certificados de usuario&lt;/a&gt;. &lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -5219,10 +5219,6 @@ La configuración solo se aplica a los mensajes nuevos, los que ya se muestran c
         <translation>&lt;p&gt;%1&lt;/p&gt;&lt;ul&gt;%2&lt;/ul&gt;&lt;p&gt;Los errores específicos de este certificado son:&lt;/p&gt;&lt;ol&gt;%3&lt;/ol&gt;&lt;p&gt;¿Desea aceptar este certificado de todos modos?&lt;br /&gt; (También se almacenará para que no se le vuelva a preguntar.)&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>SSL Version mismatch</source>
-        <translation>Las versiones de SSL no coinciden</translation>
-    </message>
-    <message>
         <source>Server connection failed.</source>
         <translation>Conexión con el servidor fallida.</translation>
     </message>
@@ -5442,10 +5438,6 @@ La configuración solo se aplica a los mensajes nuevos, los que ya se muestran c
     <message>
         <source>&lt;b&gt;WARNING:&lt;/b&gt; The server presented a certificate that was different from the stored one.</source>
         <translation>&lt;b&gt;ADVERTENCIA:&lt;/b&gt; El servidor presentó un certificado que es diferente del almacenado.</translation>
-    </message>
-    <message>
-        <source>This server is using an older encryption standard, and is no longer supported by modern versions of Mumble.</source>
-        <translation>El servidor usa un estándar de cifrado antiguo y no es soportado por versiones modernas de Mumble.</translation>
     </message>
     <message>
         <source>Server connection failed: %1.</source>
@@ -7043,7 +7035,7 @@ Las opciones válidas son:
     </message>
     <message>
         <source>D&amp;eafen Self</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Silenciate</translation>
     </message>
     <message>
         <source>Audio &amp;Statistics</source>
@@ -7051,11 +7043,11 @@ Las opciones válidas son:
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ajustes</translation>
     </message>
     <message>
         <source>Developer &amp;Console</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Consola para los desarrolladores</translation>
     </message>
     <message>
         <source>Positional &amp;Audio Viewer</source>
@@ -7063,7 +7055,7 @@ Las opciones válidas son:
     </message>
     <message>
         <source>&amp;About</source>
-        <translation type="unfinished">&amp;Acerca de</translation>
+        <translation>&amp;Acerca de</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -7071,7 +7063,7 @@ Las opciones válidas son:
     </message>
     <message>
         <source>Re&amp;gister...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Registro…</translation>
     </message>
     <message>
         <source>Registered &amp;Users</source>
@@ -7083,15 +7075,15 @@ Las opciones válidas son:
     </message>
     <message>
         <source>Remo&amp;ve Avatar</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Quitar el avatar</translation>
     </message>
     <message>
         <source>Reset Commen&amp;t...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Restablecer el comentario...</translation>
     </message>
     <message>
         <source>Remo&amp;ve Avatar...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Eliminar el avatar...</translation>
     </message>
     <message>
         <source>Remove the avatar of the selected user.</source>
@@ -7111,7 +7103,7 @@ Las opciones válidas son:
     </message>
     <message>
         <source>Vie&amp;w Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mostrar el comentario</translation>
     </message>
     <message>
         <source>&amp;Priority Speaker</source>
@@ -7135,7 +7127,7 @@ Las opciones válidas son:
     </message>
     <message>
         <source>M&amp;ove To Own Channel</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mover a Mi Canal</translation>
     </message>
     <message>
         <source>Moves this user to your current channel.</source>
@@ -7143,7 +7135,7 @@ Las opciones válidas son:
     </message>
     <message>
         <source>Disable Te&amp;xt-To-Speech</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Desactivar la síntesis de voz</translation>
     </message>
     <message>
         <source>&amp;Search...</source>
@@ -7152,6 +7144,27 @@ Las opciones válidas son:
     <message>
         <source>Filtered channels and users</source>
         <translation>Canales filtrados y usuarias</translation>
+    </message>
+    <message>
+        <source>Toggle positional audio</source>
+        <comment>Global Shortcut</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This will toggle positional audio on/off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SSL error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mumble is unable to establish a secure connection to the server. (&quot;%1&quot;)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This could be caused by one of the following scenarios:&lt;ul&gt;&lt;li&gt;Your client and the server use different encryption standards. This could be because you are using a very old client or the server you are connecting to is very old. In the first case, you should update your client and in the second case you should contact the server administrator so that they can update their server.&lt;/li&gt;&lt;li&gt;Either your client or the server is using an old operating system that doesn&apos;t provide up-to-date encryption methods. In this case you should consider updating your OS or contacting the server admin so that they can update theirs.&lt;/li&gt;&lt;li&gt;The server you are connecting to isn&apos;t actually a Mumble server. Please ensure that the used server address really belongs to a Mumble server and not e.g. to a game server.&lt;/li&gt;&lt;li&gt;The port you are connecting to does not belong to a Mumble server but instead is bound to a completely unrelated process on the server-side. Please double-check you have used the correct port.&lt;/li&gt;&lt;/ul&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7242,7 +7255,7 @@ Las opciones válidas son:
     </message>
     <message>
         <source>Graphical positional audio simulation view</source>
-        <translation type="unfinished">Vista gráfica de simulación de audio posicional</translation>
+        <translation>Gráfico de posicionamiento del sonido en la simulación</translation>
     </message>
     <message>
         <source>This visually represents the positional audio configuration that is currently being used</source>
@@ -8149,27 +8162,27 @@ Para actualizar estos ficheros a la última versión, haga clic en el botón inf
     </message>
     <message>
         <source>Plugin name</source>
-        <translation type="unfinished">nombre del Plugin</translation>
+        <translation>Nombre del plugin</translation>
     </message>
     <message>
         <source>Plugin enabled checkbox</source>
-        <translation type="unfinished">Caja de verificación habilitada</translation>
+        <translation>Casilla para activar y desactivar el plugin</translation>
     </message>
     <message>
         <source>Plugin positional audio permission checkbox</source>
-        <translation type="unfinished">Casilla de verificación del permiso de audio posicional del plugin</translation>
+        <translation>Casilla de autorización del plugin de la posición del audio</translation>
     </message>
     <message>
         <source>Plugin keyboard event listen permission checkbox</source>
-        <translation type="unfinished">Casilla de verificación del permiso de escucha de eventos de teclado del plugin</translation>
+        <translation>Casilla de verificación del permiso de escucha de eventos de teclado del plugin</translation>
     </message>
     <message>
         <source>checked</source>
-        <translation type="unfinished">marcado</translation>
+        <translation>comprobado</translation>
     </message>
     <message>
         <source>unchecked</source>
-        <translation type="unfinished">sin marcar</translation>
+        <translation>sin comprobar</translation>
     </message>
     <message>
         <source>Not available</source>
@@ -8420,12 +8433,6 @@ Para actualizar estos ficheros a la última versión, haga clic en el botón inf
         <translation>Cancelación de eco no está disponible para la combinación de interfaces &quot;%1&quot; (entrada) y &quot;%2&quot; (salida).</translation>
     </message>
     <message>
-        <source>&lt;p&gt;If you&apos;re using Linux this is most likely because you are using a version from your distribution&apos;s package repository that have their own update cycles.&lt;/p&gt;&lt;p&gt;If you want to always have the most recent Mumble version, you should consider using a different method of installation.
-See &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;the Mumble wiki&lt;/a&gt; for what alternatives there are.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Si usted está usando Linux, esto probablemente pasa porque usted está utilizando una versión obtenida del repositorio de paquetes de vuestra distribución de Linux, quienes suelen tener sus propios ciclos de actualización.&lt;/p&gt;&lt;p&gt;Si prefiere tener siempre instalada la última versión de Mumble, debiera considerar utilizar un método distinto de instalación.
-Vea &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;la wiki de Mumble&lt;/a&gt; para encontrar alternativas para su sistema.&lt;/p&gt;</translation>
-    </message>
-    <message>
         <source>Local Mute</source>
         <translation>Mudo localmente</translation>
     </message>
@@ -8623,11 +8630,11 @@ Puedes registrarlos otra vez.</translation>
     </message>
     <message>
         <source>status</source>
-        <translation type="unfinished">estado</translation>
+        <translation>estado</translation>
     </message>
     <message>
         <source>muted and deafened</source>
-        <translation type="unfinished">silenciado y ensordecido</translation>
+        <translation>silenciado y muteado</translation>
     </message>
     <message>
         <source>muted</source>
@@ -8639,7 +8646,7 @@ Puedes registrarlos otra vez.</translation>
     </message>
     <message>
         <source>unmuted</source>
-        <translation type="unfinished">no silenciado</translation>
+        <translation>sin silenciar</translation>
     </message>
     <message>
         <source>recording</source>
@@ -8647,11 +8654,11 @@ Puedes registrarlos otra vez.</translation>
     </message>
     <message>
         <source>priority speaker</source>
-        <translation type="unfinished">orador prioritario</translation>
+        <translation>Altavoz prioritario</translation>
     </message>
     <message>
         <source>has a long comment</source>
-        <translation type="unfinished">tiene un comentario lago</translation>
+        <translation>tiene un comentario lago</translation>
     </message>
     <message>
         <source>text messages ignored</source>
@@ -8696,6 +8703,12 @@ Puedes registrarlos otra vez.</translation>
     <message>
         <source>Add</source>
         <translation>Añadir</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;If you&apos;re using Linux this is most likely because you are using a version from your distribution&apos;s package repository that have their own update cycles.&lt;/p&gt;&lt;p&gt;If you want to always have the most recent Mumble version, you should consider using a different method of installation.
+See &lt;a href=&quot;https://github.com/mumble-voip/mumble&quot;&gt;the project repository&lt;/a&gt; for what alternatives there are.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Si está utilizando Linux, lo más probable es que esto se deba a que está utilizando una versión del repositorio de paquetes de su distribución que tiene sus propios ciclos de actualización.&lt;/p&gt;&lt;p&gt;Si desea tener siempre la versión más reciente de Mumble, debe considerar usar un método de instalación diferente.
+Consulte &lt;a href=&quot;https://github.com/mumble-voip/mumble&quot;&gt; el repositorio del proyecto&lt;/a&gt; para ver qué alternativas existen.&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -9029,7 +9042,7 @@ Puedes registrarlos otra vez.</translation>
     </message>
     <message>
         <source>&amp;View Certificate</source>
-        <translation type="unfinished">&amp;Ver certificado</translation>
+        <translation>&amp;Ver certificado</translation>
     </message>
     <message>
         <source>&amp;OK</source>
